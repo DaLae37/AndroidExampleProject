@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PPT 요약본"
+        android:textSize="50sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼 클릭해서 들어간뒤"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="왼쪽, 오른쪽 슬라이드로 화면 넘기기"
+        />
+    <GridLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:columnCount="2"
+        >
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/first"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="1강 - 안드로이드란?"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/third"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="3강 - 뷰와 레이아웃"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/fourth"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="4강 - 기본 위젯"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/fifth"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="5강 - 사용자 알림효과"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="6강 - 이벤트 처리"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/seventh"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="7강 - 리소스 활용"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/eighth"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="8강 - 데이터베이스"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/commingsoon"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="    기말때 뵈요~    "
+            />
+    </GridLayout>
+
+</LinearLayout>

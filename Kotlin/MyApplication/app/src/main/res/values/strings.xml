@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="component_expain">- 컴포넌트는 앱의 구성 단위이며, 컴포넌트 여러 개를 조합하여 하나의 앱을 만든다\n\n- 컴포넌트의 물리적인 모습은 클래스\n\n- 컴포넌트는 앱 내에서 독립적인 실행 단위이다\n\n- 실행하고자 하는 클래스가 안드로이드 컴포넌트 클래스라면 개발자 코드로 생성해서 실행할 수 없다\n\n- 인텐트(Intent)라는 것을 매개로 하여 결합하지 않은 상태에서 독립적으로 실행하는 구조이다\n\n- main 함수 같은 애플리케이션의 진입 지점이 따로 없다\n\n- 애플리케이션 라이브러리 개념이 있다</string>
+    <string name="component_kinds">▷ 액티비티(Activity) : UI를 구성하기 위한 컴포넌트\n\n▷ 서비스(Service) : UI없이 백그라운드에서 장시간 수행되는 컴포넌트\n\n▷ 콘텐츠 프로바이더(Content Provider) : 애플리케이션 간 데이터를 공유하기 위한 컴포넌트\n\n▷ 브로드캐스트 리시버(Broadcast Receiver) : 이벤트 모델로 수행되는 컴포넌트</string>
+    <string name="java_folder">- 자바 소스 파일이 들어있는 폴더로 [/app/src/main] 폴더 안에 있음\n- 표준 자바와 마찬가지로 패키지명과 동일한 하위 폴더들이 만들어짐</string>
+    <string name="res_folder">- 리소스 파일이 들어있는 폴더로 [/app/src/main] 폴더 안에 있음\n res/drawable: 리소스중이미지파일을저장하기위한폴더이다.\n res/layout: 리소스중UI 구성을위한레이아웃XML 파일을위한폴더이다.\n res/mipmap: 리소스중앱의아이콘이미지를위한폴더이다.\n res/values: 리소스중문자열값등을위한폴더이다.</string>
+    <string name="build_folder">- 개발환경이 자동으로 만들어 내는 결과 파일이 들어가는 폴더로 [/app/build] 폴더 안에 있음</string>
+    <string name="assets_folder">- 이 폴더는 처음에는 만들어져 있지 않음\n- 인스톨시 필요하며 리소스 대상이 되지 않는 파일 저장(예, 동영상 파일)</string>
+    <string name="manifest_folder">- 앱에 대한 정보를 담고 있는 파일로 [/app/src/main] 폴더 안에 있음\n- 매니페스트라고 부르며 애플리케이션 구성요소나 권한 등의 정보를 정의함</string>
+</resources>
